@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.background {
+    background-image: url('./Imagens-hobby-fotografia/background-inicial.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+.background-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.253);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+.titulo{
+    position: absolute;
+    top: 6%;
+    left: 40%;
+    padding: 30px;
+    font-family: fantasy;
+    letter-spacing: 6px;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgb(219, 219, 219);
+}
+.container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.5);
+}
+   

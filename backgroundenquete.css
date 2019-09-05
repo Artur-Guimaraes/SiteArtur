@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.background {
+    background-image: url('./Imagens-hobby-fotografia/background-enquete.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+.background-overlay {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+.container {
+    position: relative;
+    top: 10%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+}
+.container2{
+    position: relative;
+    top: 6%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 600px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.301);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5)
+}
+.titulo-container {
+    position: relative;
+    top: 6%;
+    left:2%;
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(250, 245, 245);
+}
+.titulo-container2 {
+    position: relative;
+    top: 5%;
+    left: 33%;
+    padding: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(250, 245, 245);
+}
+.perguntas{
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    width: 1150px;
+    height: 600px;
+    border: 2px solid rgba(180, 27, 27, 0.979);
+    padding: 3px;
+    z-index: 4;
+}
+.input{
+    position: absolute;
+    z-index: 5;
+}
